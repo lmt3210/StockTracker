@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'StockTrackersApp' target in the 'StockTracker' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

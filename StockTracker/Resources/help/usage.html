@@ -1,0 +1,96 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/1999/REC-html401-19991224/loose.dtd">
+
+<html>
+<head>
+  <title>StockTracker Help</title> 
+  <meta name="AppleTitle" content="StockTracker Help">
+  <meta name="copyright"
+   content="Copyright &copy; 2023 Larry M. Taylor. All rights reserved.">
+  <meta name="AppleIcon" content="images/st-64.png">
+  <meta name="description" content="StockTracker Help.">
+  <meta http-equiv="content-type" content="text/html; charset=x-mac-roman">
+  <link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<!-- Side navigation -->
+<div class="sidenav">
+  <br /><br />
+  <br /><br />
+  <a href="index.html">Welcome</a>
+  <br /><br />
+  <a href="usage.html">Usage</a>
+  <br /><br />
+  <a href="prefs.html">Preferences</a>
+  <br /><br />
+  <a href="support.html">Support</a>
+  <br /><br />
+  <a href="versions.html">Version History</a>
+  <br /><br />
+</div>
+
+<!-- Page content -->
+<div class="main">
+<div class="border">
+<table border="0" cellpadding="0" cellspacing="5" summary="">
+  <tbody><tr valign="middle">
+  <td width="60" align="center" valign="middle">
+  <p><img src="images/st-32.png" alt=""></p></td>
+  <td class="contents" valign="middle">
+  <h1>StockTracker Help</h1></td></tr>
+</tbody></table>
+</div>
+
+<h2>Usage</h2>
+<h4>Website Display</h4>
+<p><img src="images/website.jpg" alt=""></p>
+The top portion of StockTracker displays a user-selectable web page. This is useful for seeing updates to market indices and other stock information.
+<h4>Portfolio Table</h4>
+<p><img src="images/portfolio.jpg" alt=""></p>
+Stock portfolio data is entered and displayed here. The current price, change, gain, and gain percentage are updated automatically at the rate specified in the preferences. Updates can also be triggered manually by clicking the Update button. Clicking on the stock symbol will open the Yahoo Finance page for that stock in the default browser.
+<br /><br />
+To add a stock to the table:
+<ol>
+<li>Enter the stock symbol (e.g., AAPL, MSFT, etc.) in the Symbol box.</li> 
+<li>Enter the number of shares owned in the Shares box.</li> 
+<li>Enter the purchase price in the Price Paid box.</li> 
+<li>Press the <img style="vertical-align:middle" src="images/plus.jpg" width="20" height="16" alt=""> button.</li> 
+</ol>
+Stocks may also be added for observation only:
+<ol>
+<li>Enter the stock symbol (e.g., JNJ) in the Symbol box.</li> 
+<li>Enter zero for the number of shares owned in the Shares box.</li> 
+<li>Leave the Price Paid box empty or blank.</li> 
+<li>Press the <img style="vertical-align:middle" src="images/plus.jpg" width="20" height="16" alt=""> button.</li> 
+</ol>
+Note: the free finance API currently used by StockTracker does not allow information to be retrieved for certain valid symbols. This includes market indices such as the Dow 30 (^DJI), Nasdaq (^IXIC), etc., and for most funds such as the Vanguard Equity Income Fund (VEIPX). If any unsupported symbols are entered in the table, the company name will appear as N/A, and no price or change information will be available. A popup message will also be displayed.
+<br /><br />
+Dividend payments can be included in the gain/loss calculation for each stock. To enter each dividend:
+<ol>
+<li>Enter the stock symbol in the Symbol box.</li> 
+<li>Enter the dividend amount in the Price Paid box.</li> 
+<li>Press the <img style="vertical-align:middle" src="images/div.jpg" width="40" height="16" alt=""> button.</li> 
+</ol>
+To delete a stock:
+<ol>
+<li>Select the line containing the stock to delete.</li> 
+<li>Press the <img style="vertical-align:middle" src="images/minus.jpg" width="20" height="16" alt=""> button.</li> 
+</ol>
+To move a stock up one row in the table:
+<ol>
+<li>Select the line containing the stock to move.</li> 
+<li>Press the <img style="vertical-align:middle" src="images/up.jpg" width="20" height="16" alt=""> button.</li> 
+</ol>
+To move a stock down one row in the table:
+<ol>
+<li>Select the line containing the stock to move.</li> 
+<li>Press the <img style="vertical-align:middle" src="images/down.jpg" width="20" height="16" alt=""> button.</li> 
+</ol>
+<h4>News Feed</h4>
+<p><img src="images/news.jpg" alt=""></p>
+The news feed displays the available headlines and short summaries for each headline for every stock in the portfolio table. General market news summaries are also displayed in the news feed. Clicking on a headline will open that story in the default web browser.
+<br /><br />
+</div>
+</body>
+</html>

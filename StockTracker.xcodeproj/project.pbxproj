@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35BB3F6F15D6CF310079230E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35BB3F6E15D6CF310079230E /* Cocoa.framework */; };
+		35BB3F7B15D6CF310079230E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35BB3F7A15D6CF310079230E /* main.m */; };
+		35BB3F8215D6CF310079230E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35BB3F8115D6CF310079230E /* AppDelegate.m */; };
+		35BB3F8515D6CF310079230E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35BB3F8315D6CF310079230E /* MainMenu.xib */; };
+		35BB3F8E15D6D2560079230E /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35BB3F8C15D6D2560079230E /* MasterViewController.m */; };
+		35BB3F8F15D6D2560079230E /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35BB3F8D15D6D2560079230E /* MasterViewController.xib */; };
+		35BB3F9415D6D8FC0079230E /* StockTrackerData.m in Sources */ = {isa = PBXBuildFile; fileRef = 35BB3F9315D6D8FC0079230E /* StockTrackerData.m */; };
+		46048F662652E56E007A15CF /* st-16.png in Resources */ = {isa = PBXBuildFile; fileRef = 46048F5F2652E56E007A15CF /* st-16.png */; };
+		46048F672652E56E007A15CF /* st-256.png in Resources */ = {isa = PBXBuildFile; fileRef = 46048F602652E56E007A15CF /* st-256.png */; };
+		46048F682652E56E007A15CF /* st-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 46048F612652E56E007A15CF /* st-128.png */; };
+		46048F692652E56E007A15CF /* st-64.png in Resources */ = {isa = PBXBuildFile; fileRef = 46048F622652E56E007A15CF /* st-64.png */; };
+		46048F6A2652E56E007A15CF /* st-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 46048F632652E56E007A15CF /* st-512.png */; };
+		46048F6B2652E56E007A15CF /* st-1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 46048F642652E56E007A15CF /* st-1024.png */; };
+		46048F6C2652E56E007A15CF /* st-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 46048F652652E56E007A15CF /* st-32.png */; };
+		46048F6E2652E58A007A15CF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46048F6D2652E58A007A15CF /* Images.xcassets */; };
+		4656CE642A1FD39C003FC8F5 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4656CE632A1FD39C003FC8F5 /* WebKit.framework */; };
+		46690B832E1F1D0C00194C95 /* NSFileManager+DirectoryLocations.m in Sources */ = {isa = PBXBuildFile; fileRef = 46690B822E1F1D0C00194C95 /* NSFileManager+DirectoryLocations.m */; };
+		46690C0A2E1FD68B00194C95 /* LTPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = 46690C082E1FD68B00194C95 /* LTPopup.m */; };
+		46690C0B2E1FD68B00194C95 /* LTPopup.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46690C092E1FD68B00194C95 /* LTPopup.xib */; };
+		46690C4B2E1FE2BA00194C95 /* LTVersionCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 46690C4A2E1FE2BA00194C95 /* LTVersionCheck.m */; };
+		46B4F38D2A9EAFEF00CAE857 /* help in Resources */ = {isa = PBXBuildFile; fileRef = 46B4F38C2A9EAFEF00CAE857 /* help */; };
+		46DA67932821A810004299E0 /* PreferencesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46DA67912821A810004299E0 /* PreferencesController.m */; };
+		46DA67942821A810004299E0 /* PreferencesController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46DA67922821A810004299E0 /* PreferencesController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		35BB3F6A15D6CF310079230E /* StockTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StockTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		35BB3F6E15D6CF310079230E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		35BB3F7115D6CF310079230E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		35BB3F7215D6CF310079230E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		35BB3F7315D6CF310079230E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		35BB3F7615D6CF310079230E /* StockTracker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StockTracker-Info.plist"; sourceTree = "<group>"; };
+		35BB3F7A15D6CF310079230E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		35BB3F7C15D6CF310079230E /* StockTracker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StockTracker-Prefix.pch"; sourceTree = "<group>"; };
+		35BB3F8015D6CF310079230E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		35BB3F8115D6CF310079230E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		35BB3F8B15D6D2560079230E /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		35BB3F8C15D6D2560079230E /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		35BB3F8D15D6D2560079230E /* MasterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MasterViewController.xib; sourceTree = "<group>"; };
+		35BB3F9215D6D8FC0079230E /* StockTrackerData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StockTrackerData.h; sourceTree = "<group>"; };
+		35BB3F9315D6D8FC0079230E /* StockTrackerData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StockTrackerData.m; sourceTree = "<group>"; };
+		46048F5F2652E56E007A15CF /* st-16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "st-16.png"; sourceTree = "<group>"; };
+		46048F602652E56E007A15CF /* st-256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "st-256.png"; sourceTree = "<group>"; };
+		46048F612652E56E007A15CF /* st-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "st-128.png"; sourceTree = "<group>"; };
+		46048F622652E56E007A15CF /* st-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "st-64.png"; sourceTree = "<group>"; };
+		46048F632652E56E007A15CF /* st-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "st-512.png"; sourceTree = "<group>"; };
+		46048F642652E56E007A15CF /* st-1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "st-1024.png"; sourceTree = "<group>"; };
+		46048F652652E56E007A15CF /* st-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "st-32.png"; sourceTree = "<group>"; };
+		46048F6D2652E58A007A15CF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4656CE632A1FD39C003FC8F5 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		46690B812E1F1D0C00194C95 /* NSFileManager+DirectoryLocations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+DirectoryLocations.h"; sourceTree = "<group>"; };
+		46690B822E1F1D0C00194C95 /* NSFileManager+DirectoryLocations.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+DirectoryLocations.m"; sourceTree = "<group>"; };
+		46690BE02E1FD17900194C95 /* LTLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTLog.h; sourceTree = "<group>"; };
+		46690C072E1FD68B00194C95 /* LTPopup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTPopup.h; sourceTree = "<group>"; };
+		46690C082E1FD68B00194C95 /* LTPopup.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTPopup.m; sourceTree = "<group>"; };
+		46690C092E1FD68B00194C95 /* LTPopup.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LTPopup.xib; sourceTree = "<group>"; };
+		46690C492E1FE2BA00194C95 /* LTVersionCheck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTVersionCheck.h; sourceTree = "<group>"; };
+		46690C4A2E1FE2BA00194C95 /* LTVersionCheck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTVersionCheck.m; sourceTree = "<group>"; };
+		46B4F38C2A9EAFEF00CAE857 /* help */ = {isa = PBXFileReference; lastKnownFileType = folder; path = help; sourceTree = "<group>"; };
+		46D8D28E264F2CE70018A5BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		46DA67902821A810004299E0 /* PreferencesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PreferencesController.h; path = StockTracker/PreferencesController.h; sourceTree = SOURCE_ROOT; };
+		46DA67912821A810004299E0 /* PreferencesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PreferencesController.m; path = StockTracker/PreferencesController.m; sourceTree = SOURCE_ROOT; };
+		46DA67922821A810004299E0 /* PreferencesController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PreferencesController.xib; path = StockTracker/PreferencesController.xib; sourceTree = SOURCE_ROOT; };
+		46DCB25C28A29E2600422083 /* StockTracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StockTracker.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35BB3F6715D6CF310079230E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35BB3F6F15D6CF310079230E /* Cocoa.framework in Frameworks */,
+				4656CE642A1FD39C003FC8F5 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35BB3F5F15D6CF310079230E = {
+			isa = PBXGroup;
+			children = (
+				35BB3F7415D6CF310079230E /* StockTracker */,
+				35BB3F6D15D6CF310079230E /* Frameworks */,
+				35BB3F6B15D6CF310079230E /* Products */,
+			);
+			sourceTree = "<group>";
+			wrapsLines = 0;
+		};
+		35BB3F6B15D6CF310079230E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35BB3F6A15D6CF310079230E /* StockTracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35BB3F6D15D6CF310079230E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4656CE632A1FD39C003FC8F5 /* WebKit.framework */,
+				35BB3F6E15D6CF310079230E /* Cocoa.framework */,
+				35BB3F7015D6CF310079230E /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		35BB3F7015D6CF310079230E /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35BB3F7115D6CF310079230E /* AppKit.framework */,
+				35BB3F7215D6CF310079230E /* CoreData.framework */,
+				35BB3F7315D6CF310079230E /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		35BB3F7415D6CF310079230E /* StockTracker */ = {
+			isa = PBXGroup;
+			children = (
+				46DCB25C28A29E2600422083 /* StockTracker.entitlements */,
+				46DA678F2821A7E0004299E0 /* Preferences */,
+				46048F5E2652E557007A15CF /* Resources */,
+				35BB3F9115D6D7210079230E /* Model */,
+				35BB3F9015D6D65D0079230E /* GUI */,
+				35BB3F7515D6CF310079230E /* Supporting Files */,
+			);
+			path = StockTracker;
+			sourceTree = "<group>";
+		};
+		35BB3F7515D6CF310079230E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				35BB3F7615D6CF310079230E /* StockTracker-Info.plist */,
+				35BB3F7A15D6CF310079230E /* main.m */,
+				35BB3F7C15D6CF310079230E /* StockTracker-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		35BB3F9015D6D65D0079230E /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				35BB3F8015D6CF310079230E /* AppDelegate.h */,
+				35BB3F8115D6CF310079230E /* AppDelegate.m */,
+				35BB3F8315D6CF310079230E /* MainMenu.xib */,
+				35BB3F8B15D6D2560079230E /* MasterViewController.h */,
+				35BB3F8C15D6D2560079230E /* MasterViewController.m */,
+				35BB3F8D15D6D2560079230E /* MasterViewController.xib */,
+				46690C492E1FE2BA00194C95 /* LTVersionCheck.h */,
+				46690C4A2E1FE2BA00194C95 /* LTVersionCheck.m */,
+				46690C072E1FD68B00194C95 /* LTPopup.h */,
+				46690C082E1FD68B00194C95 /* LTPopup.m */,
+				46690C092E1FD68B00194C95 /* LTPopup.xib */,
+				46690B812E1F1D0C00194C95 /* NSFileManager+DirectoryLocations.h */,
+				46690B822E1F1D0C00194C95 /* NSFileManager+DirectoryLocations.m */,
+				46690BE02E1FD17900194C95 /* LTLog.h */,
+			);
+			name = GUI;
+			sourceTree = "<group>";
+		};
+		35BB3F9115D6D7210079230E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				35BB3F9215D6D8FC0079230E /* StockTrackerData.h */,
+				35BB3F9315D6D8FC0079230E /* StockTrackerData.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		46048F5E2652E557007A15CF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				46B4F38C2A9EAFEF00CAE857 /* help */,
+				46048F6D2652E58A007A15CF /* Images.xcassets */,
+				46048F5F2652E56E007A15CF /* st-16.png */,
+				46048F652652E56E007A15CF /* st-32.png */,
+				46048F622652E56E007A15CF /* st-64.png */,
+				46048F612652E56E007A15CF /* st-128.png */,
+				46048F602652E56E007A15CF /* st-256.png */,
+				46048F632652E56E007A15CF /* st-512.png */,
+				46048F642652E56E007A15CF /* st-1024.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		46DA678F2821A7E0004299E0 /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				46DA67902821A810004299E0 /* PreferencesController.h */,
+				46DA67912821A810004299E0 /* PreferencesController.m */,
+				46DA67922821A810004299E0 /* PreferencesController.xib */,
+			);
+			name = Preferences;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		35BB3F6915D6CF310079230E /* StockTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35BB3F8815D6CF310079230E /* Build configuration list for PBXNativeTarget "StockTracker" */;
+			buildPhases = (
+				35BB3F6615D6CF310079230E /* Sources */,
+				35BB3F6715D6CF310079230E /* Frameworks */,
+				35BB3F6815D6CF310079230E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StockTracker;
+			productName = ScaryBugsApp;
+			productReference = 35BB3F6A15D6CF310079230E /* StockTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		35BB3F6115D6CF310079230E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				ORGANIZATIONNAME = "";
+			};
+			buildConfigurationList = 35BB3F6415D6CF310079230E /* Build configuration list for PBXProject "StockTracker" */;
+			compatibilityVersion = "Xcode 11.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 35BB3F5F15D6CF310079230E;
+			productRefGroup = 35BB3F6B15D6CF310079230E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35BB3F6915D6CF310079230E /* StockTracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35BB3F6815D6CF310079230E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46DA67942821A810004299E0 /* PreferencesController.xib in Resources */,
+				46048F682652E56E007A15CF /* st-128.png in Resources */,
+				46048F6A2652E56E007A15CF /* st-512.png in Resources */,
+				35BB3F8515D6CF310079230E /* MainMenu.xib in Resources */,
+				46048F6E2652E58A007A15CF /* Images.xcassets in Resources */,
+				46B4F38D2A9EAFEF00CAE857 /* help in Resources */,
+				46048F672652E56E007A15CF /* st-256.png in Resources */,
+				46048F692652E56E007A15CF /* st-64.png in Resources */,
+				46690C0B2E1FD68B00194C95 /* LTPopup.xib in Resources */,
+				46048F6B2652E56E007A15CF /* st-1024.png in Resources */,
+				35BB3F8F15D6D2560079230E /* MasterViewController.xib in Resources */,
+				46048F662652E56E007A15CF /* st-16.png in Resources */,
+				46048F6C2652E56E007A15CF /* st-32.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35BB3F6615D6CF310079230E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46690C0A2E1FD68B00194C95 /* LTPopup.m in Sources */,
+				46DA67932821A810004299E0 /* PreferencesController.m in Sources */,
+				46690B832E1F1D0C00194C95 /* NSFileManager+DirectoryLocations.m in Sources */,
+				35BB3F7B15D6CF310079230E /* main.m in Sources */,
+				35BB3F8215D6CF310079230E /* AppDelegate.m in Sources */,
+				35BB3F8E15D6D2560079230E /* MasterViewController.m in Sources */,
+				35BB3F9415D6D8FC0079230E /* StockTrackerData.m in Sources */,
+				46690C4B2E1FE2BA00194C95 /* LTVersionCheck.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		35BB3F8315D6CF310079230E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46D8D28E264F2CE70018A5BC /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		35BB3F8615D6CF310079230E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		35BB3F8715D6CF310079230E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		35BB3F8915D6CF310079230E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = StockTracker/StockTracker.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 24;
+				DEAD_CODE_STRIPPING = YES;
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				INFOPLIST_FILE = "$(SRCROOT)/StockTracker/StockTracker-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				MARKETING_VERSION = 3.2.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.larrymtaylor.StockTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		35BB3F8A15D6CF310079230E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = StockTracker/StockTracker.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 24;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				INFOPLIST_FILE = "$(SRCROOT)/StockTracker/StockTracker-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				MARKETING_VERSION = 3.2.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.larrymtaylor.StockTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35BB3F6415D6CF310079230E /* Build configuration list for PBXProject "StockTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35BB3F8615D6CF310079230E /* Debug */,
+				35BB3F8715D6CF310079230E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35BB3F8815D6CF310079230E /* Build configuration list for PBXNativeTarget "StockTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35BB3F8915D6CF310079230E /* Debug */,
+				35BB3F8A15D6CF310079230E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 35BB3F6115D6CF310079230E /* Project object */;
+}
