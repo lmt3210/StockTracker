@@ -23,13 +23,13 @@
 		46048F6C2652E56E007A15CF /* st-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 46048F652652E56E007A15CF /* st-32.png */; };
 		46048F6E2652E58A007A15CF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46048F6D2652E58A007A15CF /* Images.xcassets */; };
 		4656CE642A1FD39C003FC8F5 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4656CE632A1FD39C003FC8F5 /* WebKit.framework */; };
-		46690B832E1F1D0C00194C95 /* NSFileManager+DirectoryLocations.m in Sources */ = {isa = PBXBuildFile; fileRef = 46690B822E1F1D0C00194C95 /* NSFileManager+DirectoryLocations.m */; };
-		46690C0A2E1FD68B00194C95 /* LTPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = 46690C082E1FD68B00194C95 /* LTPopup.m */; };
-		46690C0B2E1FD68B00194C95 /* LTPopup.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46690C092E1FD68B00194C95 /* LTPopup.xib */; };
-		46690C4B2E1FE2BA00194C95 /* LTVersionCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 46690C4A2E1FE2BA00194C95 /* LTVersionCheck.m */; };
 		46B4F38D2A9EAFEF00CAE857 /* help in Resources */ = {isa = PBXBuildFile; fileRef = 46B4F38C2A9EAFEF00CAE857 /* help */; };
+		46D7C8052AA2352C00DC40E6 /* NSFileManager+DirectoryLocations.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D7C8032AA2352C00DC40E6 /* NSFileManager+DirectoryLocations.m */; };
 		46DA67932821A810004299E0 /* PreferencesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46DA67912821A810004299E0 /* PreferencesController.m */; };
 		46DA67942821A810004299E0 /* PreferencesController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46DA67922821A810004299E0 /* PreferencesController.xib */; };
+		46ED8FB92AA0B16B00457A4A /* LTVersionCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 46ED8FB52AA0B16B00457A4A /* LTVersionCheck.m */; };
+		46ED8FBA2AA0B16B00457A4A /* LTPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = 46ED8FB72AA0B16B00457A4A /* LTPopup.m */; };
+		46ED8FBB2AA0B16B00457A4A /* LTPopup.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46ED8FB82AA0B16B00457A4A /* LTPopup.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,20 +57,20 @@
 		46048F652652E56E007A15CF /* st-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "st-32.png"; sourceTree = "<group>"; };
 		46048F6D2652E58A007A15CF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4656CE632A1FD39C003FC8F5 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
-		46690B812E1F1D0C00194C95 /* NSFileManager+DirectoryLocations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+DirectoryLocations.h"; sourceTree = "<group>"; };
-		46690B822E1F1D0C00194C95 /* NSFileManager+DirectoryLocations.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+DirectoryLocations.m"; sourceTree = "<group>"; };
-		46690BE02E1FD17900194C95 /* LTLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTLog.h; sourceTree = "<group>"; };
-		46690C072E1FD68B00194C95 /* LTPopup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTPopup.h; sourceTree = "<group>"; };
-		46690C082E1FD68B00194C95 /* LTPopup.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTPopup.m; sourceTree = "<group>"; };
-		46690C092E1FD68B00194C95 /* LTPopup.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LTPopup.xib; sourceTree = "<group>"; };
-		46690C492E1FE2BA00194C95 /* LTVersionCheck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTVersionCheck.h; sourceTree = "<group>"; };
-		46690C4A2E1FE2BA00194C95 /* LTVersionCheck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTVersionCheck.m; sourceTree = "<group>"; };
 		46B4F38C2A9EAFEF00CAE857 /* help */ = {isa = PBXFileReference; lastKnownFileType = folder; path = help; sourceTree = "<group>"; };
+		46D7C8032AA2352C00DC40E6 /* NSFileManager+DirectoryLocations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSFileManager+DirectoryLocations.m"; path = "../../LTCommon/NSFileManager+DirectoryLocations.m"; sourceTree = "<group>"; };
+		46D7C8042AA2352C00DC40E6 /* NSFileManager+DirectoryLocations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSFileManager+DirectoryLocations.h"; path = "../../LTCommon/NSFileManager+DirectoryLocations.h"; sourceTree = "<group>"; };
 		46D8D28E264F2CE70018A5BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		46DA67902821A810004299E0 /* PreferencesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PreferencesController.h; path = StockTracker/PreferencesController.h; sourceTree = SOURCE_ROOT; };
 		46DA67912821A810004299E0 /* PreferencesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PreferencesController.m; path = StockTracker/PreferencesController.m; sourceTree = SOURCE_ROOT; };
 		46DA67922821A810004299E0 /* PreferencesController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PreferencesController.xib; path = StockTracker/PreferencesController.xib; sourceTree = SOURCE_ROOT; };
 		46DCB25C28A29E2600422083 /* StockTracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StockTracker.entitlements; sourceTree = "<group>"; };
+		46ED8FB42AA0B16B00457A4A /* LTVersionCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LTVersionCheck.h; path = ../../LTCommon/LTVersionCheck.h; sourceTree = "<group>"; };
+		46ED8FB52AA0B16B00457A4A /* LTVersionCheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LTVersionCheck.m; path = ../../LTCommon/LTVersionCheck.m; sourceTree = "<group>"; };
+		46ED8FB62AA0B16B00457A4A /* LTPopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LTPopup.h; path = ../../LTCommon/LTPopup.h; sourceTree = "<group>"; };
+		46ED8FB72AA0B16B00457A4A /* LTPopup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LTPopup.m; path = ../../LTCommon/LTPopup.m; sourceTree = "<group>"; };
+		46ED8FB82AA0B16B00457A4A /* LTPopup.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LTPopup.xib; path = ../../LTCommon/LTPopup.xib; sourceTree = "<group>"; };
+		46FEFD7F28411583005547C4 /* LTLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LTLog.h; path = ../../LTCommon/LTLog.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +132,7 @@
 				46048F5E2652E557007A15CF /* Resources */,
 				35BB3F9115D6D7210079230E /* Model */,
 				35BB3F9015D6D65D0079230E /* GUI */,
+				46FEFD7E2841156C005547C4 /* Common */,
 				35BB3F7515D6CF310079230E /* Supporting Files */,
 			);
 			path = StockTracker;
@@ -156,14 +157,6 @@
 				35BB3F8B15D6D2560079230E /* MasterViewController.h */,
 				35BB3F8C15D6D2560079230E /* MasterViewController.m */,
 				35BB3F8D15D6D2560079230E /* MasterViewController.xib */,
-				46690C492E1FE2BA00194C95 /* LTVersionCheck.h */,
-				46690C4A2E1FE2BA00194C95 /* LTVersionCheck.m */,
-				46690C072E1FD68B00194C95 /* LTPopup.h */,
-				46690C082E1FD68B00194C95 /* LTPopup.m */,
-				46690C092E1FD68B00194C95 /* LTPopup.xib */,
-				46690B812E1F1D0C00194C95 /* NSFileManager+DirectoryLocations.h */,
-				46690B822E1F1D0C00194C95 /* NSFileManager+DirectoryLocations.m */,
-				46690BE02E1FD17900194C95 /* LTLog.h */,
 			);
 			name = GUI;
 			sourceTree = "<group>";
@@ -201,6 +194,21 @@
 				46DA67922821A810004299E0 /* PreferencesController.xib */,
 			);
 			name = Preferences;
+			sourceTree = "<group>";
+		};
+		46FEFD7E2841156C005547C4 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				46FEFD7F28411583005547C4 /* LTLog.h */,
+				46ED8FB62AA0B16B00457A4A /* LTPopup.h */,
+				46ED8FB72AA0B16B00457A4A /* LTPopup.m */,
+				46ED8FB82AA0B16B00457A4A /* LTPopup.xib */,
+				46ED8FB42AA0B16B00457A4A /* LTVersionCheck.h */,
+				46ED8FB52AA0B16B00457A4A /* LTVersionCheck.m */,
+				46D7C8042AA2352C00DC40E6 /* NSFileManager+DirectoryLocations.h */,
+				46D7C8032AA2352C00DC40E6 /* NSFileManager+DirectoryLocations.m */,
+			);
+			name = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,7 +272,7 @@
 				46B4F38D2A9EAFEF00CAE857 /* help in Resources */,
 				46048F672652E56E007A15CF /* st-256.png in Resources */,
 				46048F692652E56E007A15CF /* st-64.png in Resources */,
-				46690C0B2E1FD68B00194C95 /* LTPopup.xib in Resources */,
+				46ED8FBB2AA0B16B00457A4A /* LTPopup.xib in Resources */,
 				46048F6B2652E56E007A15CF /* st-1024.png in Resources */,
 				35BB3F8F15D6D2560079230E /* MasterViewController.xib in Resources */,
 				46048F662652E56E007A15CF /* st-16.png in Resources */,
@@ -279,14 +287,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46690C0A2E1FD68B00194C95 /* LTPopup.m in Sources */,
 				46DA67932821A810004299E0 /* PreferencesController.m in Sources */,
-				46690B832E1F1D0C00194C95 /* NSFileManager+DirectoryLocations.m in Sources */,
+				46D7C8052AA2352C00DC40E6 /* NSFileManager+DirectoryLocations.m in Sources */,
 				35BB3F7B15D6CF310079230E /* main.m in Sources */,
 				35BB3F8215D6CF310079230E /* AppDelegate.m in Sources */,
 				35BB3F8E15D6D2560079230E /* MasterViewController.m in Sources */,
 				35BB3F9415D6D8FC0079230E /* StockTrackerData.m in Sources */,
-				46690C4B2E1FE2BA00194C95 /* LTVersionCheck.m in Sources */,
+				46ED8FBA2AA0B16B00457A4A /* LTPopup.m in Sources */,
+				46ED8FB92AA0B16B00457A4A /* LTVersionCheck.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
