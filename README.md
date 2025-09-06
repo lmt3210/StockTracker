@@ -5,10 +5,6 @@
 
 StockTracker is an application for managing a stock portfolio.
 
-## Downloads
-
-Releases can be downloaded [here](https://www.larrymtaylor.com/software.php).
-
 ## Dependencies
 StockTracker requires LTCommon. It is available on GitHib 
 [here](https://github.com/lmt3210/LTCommon).
